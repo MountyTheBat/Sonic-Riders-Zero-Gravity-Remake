@@ -1,0 +1,132 @@
+﻿[2015.08.23-18.59.18:053][  0]Log file open, 08/23/15 11:59:18
+[2015.08.23-18.59.18:053][  0]LogInit:Display: Running engine for game: SRZGRemake
+[2015.08.23-18.59.18:053][  0]LogInit:Display: RandInit(-633314810) SRandInit(-633314810).
+[2015.08.23-18.59.18:053][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.08.23-18.59.18:053][  0]LogStats: Stats thread started
+[2015.08.23-18.59.18:053][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.23-18.59.18:053][  0]LogInit: API Version: 2579680
+[2015.08.23-18.59.18:053][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.23-18.59.18:053][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.23-18.59.18:053][  0]LogInit: Build Configuration: Development
+[2015.08.23-18.59.18:053][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.23-18.59.18:053][  0]LogInit: Command line: 
+[2015.08.23-18.59.18:053][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.23-18.59.18:053][  0]LogInit: Rocket: 1
+[2015.08.23-18.59.18:066][  0]LogInit: Using libcurl 7.41.0
+[2015.08.23-18.59.18:066][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.23-18.59.18:066][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.23-18.59.18:066][  0]LogInit:  - other features:
+[2015.08.23-18.59.18:066][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.23-18.59.18:066][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.23-18.59.18:066][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.23-18.59.18:066][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.23-18.59.18:066][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.23-18.59.18:066][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.23-18.59.18:066][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.23-18.59.18:066][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.23-18.59.18:066][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.23-18.59.18:066][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.23-18.59.18:078][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.23-18.59.18:091][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.23-18.59.18:097][  0]LogInit: Object subsystem initialized
+[2015.08.23-18.59.18:100][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.23-18.59.18:100][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.23-18.59.18:125][  0]LogInit: Computer: KEVIN-PC
+[2015.08.23-18.59.18:125][  0]LogInit: User: Kevin
+[2015.08.23-18.59.18:125][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.23-18.59.18:125][  0]LogInit: High frequency timer resolution =3.312644 MHz
+[2015.08.23-18.59.18:125][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2015.08.23-18.59.18:125][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.23-18.59.18:125][  0]LogMemory: Process Physical Memory: 52.30 MB used, 52.30 MB peak
+[2015.08.23-18.59.18:125][  0]LogMemory: Process Virtual Memory: 20.84 MB used, 20.84 MB peak
+[2015.08.23-18.59.18:125][  0]LogMemory: Physical Memory: 8186.69 MB used, 12223.78 MB total
+[2015.08.23-18.59.18:125][  0]LogMemory: Virtual Memory: 311.36 MB used, 134217728.00 MB total
+[2015.08.23-18.59.18:299][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.23-18.59.18:698][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.23-18.59.19:326][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7500 Series (Feature Level 11_0)
+[2015.08.23-18.59.19:326][  0]LogD3D11RHI: Adapter has 1008MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.08.23-18.59.19:328][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.23-18.59.19:328][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6111MB of shared system memory, 0 output[s]
+[2015.08.23-18.59.19:328][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.23-18.59.19:337][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.23-18.59.19:337][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.23-18.59.19:337][  0]LogRHI: Texture pool is 706 MB (70% of 1008 MB)
+[2015.08.23-18.59.19:343][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.08.23-18.59.19:355][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.23-18.59.21:374][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.23-18.59.21:388][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.23-18.59.21:401][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.23-18.59.21:414][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.23-18.59.21:428][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.23-18.59.21:441][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.23-18.59.21:453][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.23-18.59.21:466][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.23-18.59.21:478][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.23-18.59.21:490][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.23-18.59.21:503][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.23-18.59.21:515][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.23-18.59.21:564][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.23-18.59.21:576][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.23-18.59.21:588][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.23-18.59.21:603][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.23-18.59.21:603][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.23-18.59.21:810][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.23-18.59.22:648][  0]LogDerivedDataCache: Loaded boot cache 0.84s 53MB C:/Users/i 9/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.23-18.59.22:648][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/i 9/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.23-18.59.22:648][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/i 9/Documents/GitHub/Sonic-Riders-Zero-Gravity-Remake/SRZGRemake/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.23-18.59.22:648][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.23-18.59.22:648][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/i 9/Documents/GitHub/Sonic-Riders-Zero-Gravity-Remake/SRZGRemake/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.23-18.59.22:648][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.23-18.59.22:783][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.23-18.59.22:796][  0]LogDerivedDataCache: Using Local data cache path C:/Users/i 9/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.23-18.59.23:003][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.23-18.59.23:080][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.23-18.59.23:080][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.23-18.59.23:108][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.23-18.59.23:108][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.23-18.59.23:507][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.23-18.59.44:092][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.23-18.59.44:541][  0]SourceControl: Info Source control is disabled
+[2015.08.23-18.59.44:587][  0]SourceControl: Info Source control is disabled
+[2015.08.23-18.59.44:596][  0]SourceControl: Info Source control is disabled
+[2015.08.23-18.59.44:606][  0]SourceControl: Info Source control is disabled
+[2015.08.23-18.59.44:869][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.23-18.59.44:869][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.08.23-18.59.44:968][  0]LogEngine: Initializing Engine...
+[2015.08.23-18.59.44:971][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.23-18.59.45:013][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 108
+[2015.08.23-18.59.45:146][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.23-18.59.45:151][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.23-18.59.45:163][  0]LogInit: FAudioDevice initialized.
+[2015.08.23-18.59.45:190][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/i 9/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.23-18.59.45:195][  0]LogInit: Texture streaming: Disabled
+[2015.08.23-18.59.45:218][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.23-18.59.45:218][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.23-18.59.45:218][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId c3452e1e450b42c235f5f99462b26706|bfdae579a31b449ebd6e55f5eb4997e6|35179390-ada5-456c-9a36-4b2b059b8215
+[2015.08.23-18.59.45:218][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.23-18.59.45:252][  0]LogInit: Transaction tracking system initialized
+[2015.08.23-18.59.45:374][  0]BlueprintLog: New page: Editor Load
+[2015.08.23-18.59.45:408][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.08.23-18.59.45:408][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.23-18.59.49:288][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.23-18.59.49:289][  0]LogConsoleResponse:Display: 
+[2015.08.23-18.59.49:609][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.23-18.59.50:161][  0]SourceControl: Info Source control is disabled
+[2015.08.23-18.59.50:528][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.8/FeaturePacks/StarterContent.upack)
+[2015.08.23-18.59.50:705][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2015.08.23-18.59.50:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/i 9/Documents/GitHub/Sonic-Riders-Zero-Gravity-Remake/SRZGRemake/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2015.08.23-18.59.50:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/i 9/Documents/GitHub/Sonic-Riders-Zero-Gravity-Remake/SRZGRemake/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2015.08.23-18.59.50:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/i 9/Documents/GitHub/Sonic-Riders-Zero-Gravity-Remake/SRZGRemake/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2015.08.23-18.59.50:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset" to "../../../../../../Users/i 9/Documents/GitHub/Sonic-Riders-Zero-Gravity-Remake/SRZGRemake/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset"
+[2015.08.23-18.59.50:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset" to "../../../../../../Users/i 9/Documents/GitHub/Sonic-Riders-Zero-Gravity-Remake/SRZGRemake/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset"
+[2015.08.23-18.59.50:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/i 9/Documents/GitHub/Sonic-Riders-Zero-Gravity-Remake/SRZGRemake/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2015.08.23-18.59.50:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/i 9/Documents/GitHub/Sonic-Riders-Zero-Gravity-Remake/SRZGRemake/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2015.08.23-18.59.51:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/i 9/Documents/GitHub/Sonic-Riders-Zero-Gravity-Remake/SRZGRemake/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2015.08.23-18.59.51:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/i 9/Documents/GitHub/Sonic-Riders-Zero-Gravity-Remake/SRZGRemake/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2015.08.23-18.59.51:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/i 9/Documents/GitHub/Sonic-Riders-Zero-Gravity-Remake/SRZGRemake/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2015.08.23-18.59.51:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/i 9/Documents/GitHub/Sonic-Riders-Zero-Gravity-Remake/SRZGRemake/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2015.08.23-18.59.51:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/i 9/Documents/GitHub/Sonic-Riders-Zero-Gravity-Remake/SRZGRemake/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2015.08.23-18.59.51:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/i 9/Documents/GitHub/Sonic-Riders-Zero-Gravity-Remake/SRZGRemake/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2015.08.23-18.59.51:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/i 9/
